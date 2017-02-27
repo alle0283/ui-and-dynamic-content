@@ -8,7 +8,7 @@ function removeItem() {
 
 function addItem() {
 	listItem = document.createElement("li");
-	listItemText = prompt("Enter a new item for to-do list:");
+	listItemText = prompt("Enter a new item for to-buy list:");
 	if (listItemText) {
 		listItem.innerHTML = listItemText;
 		list.appendChild(listItem);
